@@ -1,0 +1,137 @@
+<!doctype html>
+<html> 
+ <head> 
+    <style>
+.hero{
+  height: 100vh;
+  width: 100%;
+  background: #040000 url(https://img.wallpapersafari.com/desktop/800/450/78/20/trelAH.jpg) center center/cover no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+nav{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 45px;
+  padding-left: 8%;
+  padding-right: 8%;
+}
+.logo{
+  color: white ;
+  font-size: 35px;
+  letter-spacing: 1px;
+  cursor: pointer;
+ }
+span{
+  color: #72279F;
+}
+nav ul li{
+  list-style-type: none;
+  display: inline-block;
+  padding: 10px 25px; 
+}
+nav ul li a{
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  text-transform: capitalize;
+}
+nav ul li a :hover{
+  color: #72279F;
+  transition: .4s; 
+}
+.btn{
+  background-color: #72279F;
+  color: white;
+  text-decoration: none;
+  border: 2px solid transparent;
+  padding: 10px 25px;
+  border-radius: 30px;
+  transition: transform .4s;
+  
+}
+.btn hover{
+  transform: scale(1.2);
+  
+}
+.content{
+  position: absolute;
+  top: 50%;
+  left: 8%;
+  transform: translateY(-50%);
+}
+h1{
+  color: white;
+  margin: 20px 0px 20px;
+  font-size: 75px;
+  
+}
+h3{
+  color: white;
+  font-size: 25px;
+  margin-bottom: 50px;
+  
+}
+h4{
+  color: #72279F;
+  letter-spacing: 2px;
+  font-size: 20px;
+}
+.newsletter form{
+  width: 380px;
+  max-width: 100%;
+  position: relative;
+  
+}
+.newsletter form input:first-child{
+  display: inline-block;
+  width: 100%;
+  padding: 14px 130px 14px 15px;
+  border: 2px solid #72279F;
+  outline: none;
+  border-radius: 30px;
+}
+.newsletter form input:last-child{
+  position: absolute;
+  display: inline-block;
+  outline: none;
+  border: none;
+  padding: 10px 30px;
+  border-radius: 30px;
+  background-color: #72279F;
+  color: white;
+  box-shadow: 0px 0px 5px white, 0px 0px 15px #858585;
+  top: 6px;
+  right: 6px;
+}
+    </style>
+  <title> Online classes</title> 
+ </head> 
+ <body> 
+  <div class="hero"> 
+   <nav> 
+    <h2 class="logo">stud<span>ing</span></h2> 
+    <ul> 
+     <li><a href="#">Home</a></li> 
+     <li><a href="#">Curriculum</a></li> 
+     <li><a href="#">Online classes</a></li> 
+     <li><a href="#">About Us</a></li>  
+    </ul> <a href="#" class="btn">LOGIN</a> 
+    </ul> <a href="#" class="btn">SIGN UP</a>
+   </nav> 
+   <div class="content"> 
+    <h4>GET STARTED ON YOUR ONLINE LESSONS</h4> 
+    <h1>Stud<span>ing</span></h1> 
+    <h3>Education is smart enough to change the human mind positively!</h3> 
+    <div class="newsletter"> 
+     <form> 
+      <input type="email" name="email" id="mail" placeholder="enter your email"> 
+      <input type=" submit" name=" submit" value=" Lets start"> 
+     </form> 
+    </div> 
+   </div> 
+  </div>
+  </body>
+  </html>
+  
